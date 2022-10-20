@@ -1,4 +1,84 @@
-.para-external
-{
-    color :rebeccapurple
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding:5px 0;
+    background-color: rgb(41, 73, 102);
+}
+.medsos ul li {
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    margin: 5px;
+
+}
+div ul li a:hover {
+    background-color: aliceblue;
+    color: rgb(41, 73, 102);   
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding:25px 20px;
+    display: inline-block;
+    color: rgb(41, 73, 102);
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;  
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: rgb(41, 73, 102);
+    color: rgb(255, 255, 255);
+}
+.banner {
+    height:  60vh;
+    border: 1px solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: o;
+    background-color: rgb(41, 73, 102, .6);
+}
+.banner h2 {
+    color: rgb(50, 78, 102);
+    z-index:1;
+    padding: 5px 10px;
+    border:5px solid rgb(50, 78, 102);
+}
+section div {
+    text-align:center;
+    text-align;
+    padding: 20px 0;
+    color: rgb(50, 78, 102);
+}
+.about h3{
+    display: block;
