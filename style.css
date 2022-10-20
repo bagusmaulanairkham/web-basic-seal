@@ -31,7 +31,6 @@ div ul li a:hover {
     clear: both;
 }
 header h1 {
-    float: left;
     padding:25px 20px;
     display: inline-block;
     color: rgb(41, 73, 102);
@@ -76,9 +75,9 @@ header ul li a:hover {
 }
 section div {
     text-align:center;
-    text-align;
     padding: 20px 0;
     color: rgb(50, 78, 102);
 }
 .about h3{
     display: block;
+}
